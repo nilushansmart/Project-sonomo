@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*********navigation bar***********/
+#navsono{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background: #232318;
+}
+
+.navbar .navbar-brand{
+    font-size: 38px;
+    font-weight: bolder !important;
+    color:#E02B50 !important;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 0px 0.5px 0px #FBE0E6, 0px 1px 0.2px #FBE0E6 ,0px 1.5px 0.4px #FBE0E6;
+}
+
+#navbarSupportedContent a{
+    padding: 15px;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #E02B50;
+}
+
+#login_btn{
+    background: #E02B50;
+    margin: 5px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+#login_btn:hover{
+    background: #f4eff0;
+    color: #E02B50;
+}
+
+#cart_btn{
+    background: #E02B50;
+    margin: 5px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+#cart_btn:hover{
+    background: #f4eff0;
+    color: #E02B50;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********Home***********/
+#home{
+    background-image: linear-gradient(rgba(0,0,0.2,0.3),rgba(0,0,0.4,0.5)),url(src/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 2.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc;
+}
+
+#home p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/************shop***********/
+#shop{
+    background: #c3bbbb;
+}
+
+#shop h1{
+    font-size: 50px;
+    letter-spacing: 1.8px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#shop img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+/************About***********/
+#about{
+    background-color: rgb(126, 114, 102);
+}
+
+#pcontaainer{
+    background-color: #dfdbdb;
+    padding-right: 25px;
+}
+
+#about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: #000;
+}
+
+#about_logo{
+    padding-top: 40px;
+}
+
+#about h1{
+    color: #E02B50;
+    text-shadow: 0px 0.5px 0px #FBE0E6;
+    padding-bottom: 10px;
+}
+
+/************contact us***********/
+#contact_us{
+    background-color: rgb(29, 28, 27);
+}
+
+#contact-form{
+    background-color: #dfdbdb;
+    border-radius: 2px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-form h2{
+    padding: 25px;
+    color: #E02B50;
+    text-align: center;
+}
+#contact-form p{
+    text-align: center;
+}
+
+#contact-form form{
+    padding-bottom: 30px;
+}
+
+#contact-form form .form-group{
+    padding-bottom: 15px;
+}
+
+#contact-details{
+    background-color: #dfdbdb;
+    border-radius: 2px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-details .row{
+    padding-bottom: 40px;
+}
+
+#unl{
+    border-bottom: 0.5px solid #E02B50;
+}
+
+#lfl{
+    border-left: 0.5px solid #E02B50;
+    border-bottom: 0.5px solid #E02B50;
+}
+
+#contact-details h2{
+    padding: 25px;
+    color: #E02B50;
+    text-align: center;
+}
+
+/************Footer***********/
+footer{
+    background-color: #232318;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+}
+

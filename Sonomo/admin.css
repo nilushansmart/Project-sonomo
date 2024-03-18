@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*********navigation bar***********/
+#navsono{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background: #232318;
+}
+
+.navbar .navbar-brand{
+    font-size: 38px;
+    font-weight: bolder !important;
+    color:#E02B50 !important;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 0px 0.5px 0px #FBE0E6, 0px 1px 0.2px #FBE0E6 ,0px 1.5px 0.4px #FBE0E6;
+}
+
+#navbarSupportedContent{
+    padding-right: 40px;
+}
+
+#navbarSupportedContent a{
+    padding-right: 30px;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid #E02B50;
+}
+
+#logout_btn{
+    background: #E02B50;
+    margin: 5px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+#logout_btn:hover{
+    background: #f4eff0;
+    color: hsl(348, 74%, 52%);
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: azure;
+    padding-top: 10px;
+    font-weight: 800 !important;
+}
+
+body section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#showbook{
+    background: #ead9dd;
+}
+
+#heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#bookupload table{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+#bookupload table td{
+    padding: 20px;
+}
